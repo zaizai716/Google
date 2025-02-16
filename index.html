@@ -67,14 +67,14 @@
             top: 193px;
             left: 470px;}
 
-        </style>
+        </style> 
     </head>
     <body>
         <div>
             <a id="about" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
             <a id="store" href="https://store.google.com/us/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US&pli=1">Store</a>
             <a id="advanced" href="advanced_search.html">Advanced Search</a>
-            <a id="image" href="file:/Users/justinyu/PycharmProjects/CS50W/problemset0/image_search.html">Images</a>
+            <a id="image" href="image_search.html">Images</a>
             <a id="gmail" href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
             <a id="advertising" href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
             <a id="business" href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a>
@@ -95,7 +95,8 @@
             <i id="magnifying" class="fa-solid fa-magnifying-glass"></i>
             <div>
                 <form action="https://www.google.com/search">
-                     <input id="submit2" type="submit" name="btnI" value="I'm Feeling Lucky">
+                    <input type="hidden" name="btnI" value="1"> <!-- Enables "I'm Feeling Lucky" -->
+                    <button id="submit2" type="submit">I'm Feeling Lucky</button>
                 </form>
             </div>
         </div>
