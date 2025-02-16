@@ -1,0 +1,89 @@
+
+
+body {
+background-color: #202124;
+overflow: hidden;}
+
+a {
+color: white;
+font-family: Google Sans, Roboto, Arial, sans-serif;
+background-color: #202124;
+text-decoration: none;}
+
+#search_bar {
+text-align: left;
+padding-left: 50px;
+position: relative;
+top: 225px;
+left: 450px;
+background-color: #444746;
+border: #444746;
+width: 37%;
+height: 45px;
+border-radius: 25px;
+font-size: 16px;
+color: white;
+overflow-x: hidden;}
+
+#search_bar:hover {
+background-color: #545756;}
+
+#submit, #submit2 {
+background-color: #303134;
+border: transparent;
+color: white;
+width: 125px;
+height: 36px;
+font-size: 14px;
+border-radius: 5px;}
+
+#bottom_bar {
+length: 917px;
+width: 93.500px;
+background-color: #1f1f1f;
+}
+
+#advertising, #business, #search_works, #privacy, #terms, #climate, #advanced, #about, #store {
+color: white;
+font-size: 14px;
+z-index: 2
+}
+
+#image, #gmail, #submit, #submit2, #advertising, #business, #search_works, #privacy, #terms, #climate, #advanced, #about, #store, #magnifying, #g_search {
+position: relative;}
+
+#image, #gmail, #advanced, #about, #store {
+top: 10px;}
+
+#submit:hover, #submit2:hover {
+border: 1px solid white;}
+
+#image:hover, #gmail:hover, #advertising:hover, #business:hover, #search_works:hover, #privacy:hover, #terms:hover, #climate:hover, #advanced:hover, #about:hover, #store:hover, #g_search:hover {
+text-decoration: underline;}
+
+.color-block {
+position: relative;
+top: 573px;
+left: -30px;
+width: 1800px;
+height: 200px;
+background-color: #28292a;}
+
+#leaf {
+width: 13px;
+height: 13px;
+position: relative;
+top: 802px;
+left: 608px;
+z-index: 2;}
+
+#Google_Logo {
+position: relative;
+top: 200px;
+left: 615px;
+width: 272px;
+height: 92px;}
+
+#magnifying {
+position: relative;
+color: gray;}

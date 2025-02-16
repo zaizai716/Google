@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="advanced.css">
+        <style>
+
+            #none_words {
+            top: -80px;
+            left: -425px;}
+
+            #any_words {
+            left: 191px;
+            top: -122px;}
+
+            #exact_words {
+            left: -425px;
+            top: -133px;}
+
+            #all_words {
+            top: -175px;
+            left: 190px;}
+
+            #to_do {
+            font-size: 13px;
+            position: relative;
+            top: 35px;
+            left: 800px;}
+
+            #find {
+            font-weight: normal;}
+
+            #index {
+            font-family: Google Sans, Roboto, Arial, sans-serif;}
+
+        </style>
+    </head>
+    <body>
+        <a id="index" href="file:///Users/justinyu/PycharmProjects/CS50W/problemset0/index.html">Google Search</a>
+        <div>
+            <img id="Google_Logo" src="file:/Users/justinyu/Downloads/googlelogo_light_color_272x92dp.png" alt="Google">
+            <h2>Advanced Search</h2>
+        </div>
+        <div class="headings">
+            <h3 id="find">
+                Find pages with...
+            </h3>
+            <h3 id="to_do">
+                To do this in the search box
+            </h3>
+        </div>
+        <div class="specifics">
+            <p>all these words:</p>
+            <div style="height: 6px;"></div>
+            <p>this exact word or phrase:</p>
+            <div style="height: 6px;"></div>
+            <p>any of these words:</p>
+            <div style="height: 6px;"></div>
+            <p>none of these words: <span class="diff_font"></span></p>
+        </div>
+        <div class="specifics2">
+            <p>Type the important words: <span class="diff_font">tricolor rat terrier</span></p>
+            <div style="height: 6px;"></div>
+            <p>Put exact words in quotes: <span class="diff_font">"rat terrier"</span></p>
+            <div style="height: 6px;"></div>
+            <p>Type <span class="diff_font">OR</span> between all the words you want: <span class="diff_font">miniature OR standard</span></p>
+            <div style="height: 6px;"></div>
+            <p>Put a minus sign just before words you don't want: <span class="diff_font">-rodent, -"Jack Russell"</span></p>
+        </div>
+        <div>
+            <form class="advanced_search" action="https://www.google.com/advanced_search" method="GET">
+                <input id="all_words" name="as_q" type="text">
+                <input id="exact_words" name="as_epq" type="text">
+                <input id="any_words" name="as_oq" type="text">
+                <input id="none_words" name="as_eq" type="text">
+            </form>
+        </div>
+        <div class="adv_search">
+            <form action="https://www.google.com/advanced_search" method="GET">
+                <input id="advanced_search_button" type="submit" value="Advanced Search">
+            </form>
+        </div>
+    </body>
+</html>

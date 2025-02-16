@@ -1,0 +1,94 @@
+body {
+background-color: #202124;
+overflow: hidden;}
+
+#Google_Logo {
+width: 74px;
+height: 24px;
+position: relative;
+top: -5px;
+left: 12px;}
+
+h2 {
+font-weight: normal;
+font-family: Roboto, Arial, sans-serif;
+color: #f28b82;
+font-size: 20px;
+position: relative;
+top: 20px;
+left: 35px;}
+
+h3 {
+position: relative;
+left: 40px;
+top: 70px;
+color: white;
+font-size: 16px;
+font-family: Google Sans, Roboto, Arial, sans-serif}
+
+.specifics, .specifics2 {
+position: relative;
+font-family: Roboto,Arial,sans-serif;
+color: #969ba1;
+font-size: 11px;
+margin-bottom: 10px;}
+
+.specifics {
+left: 40px;
+top: 60px;}
+
+.specifics2 {
+font-size: 11px;
+top: -90px;
+left: 810px;}
+
+.diff_font {
+color: #dadce0;
+font-family: monospace}
+
+#all_words, #exact_words, #any_words, #none_words {
+padding-left: 8px;
+color: #bdc1c6;
+overflow-x: hidden;
+position: relative;
+font-size: 16px;
+background-color: transparent;
+border: 1px solid #5f6368;
+height: 25px;
+width: 600px;}
+
+a {
+color: white;
+font-family: Google Sans, Roboto, Arial, sans-serif;
+text-decoration: none;
+position: relative;
+left: 1395px;}
+
+.advanced_search {
+position: relative;
+top: -70px;
+background: #202124;}
+
+#advanced_search_button {
+position: relative;
+top: -130px;
+left: 425px;
+font-weight: bold;
+font-size: 11px;
+padding: 12px;
+border-radius: 5px;
+background-color: #8ab4f8;
+z-index: 2;}
+
+#advanced_search_button:hover {
+background-color: #a1c2f7;}
+
+#index {
+position: relative;
+left: 1260px;
+top: 5px;
+color: white;
+font-size: 13px;}
+
+#index:hover {
+text-decoration: underline;}
